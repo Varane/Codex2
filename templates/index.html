@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part Price Finder</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f7f7f7; color: #333; }
+        h1 { margin-bottom: 10px; }
+        .search-section, .dropdown-section { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        input, select, button { padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+        button { background: #007bff; color: #fff; cursor: pointer; border: none; }
+        button:hover { background: #0056b3; }
+        #result img { max-width: 200px; display: block; margin-top: 10px; }
+        #result h2 { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Part Price Finder</h1>
+
+    <div class="search-section">
+        <h2>Search by OEM or Part Name</h2>
+        <input id="oem" placeholder="Enter OEM or part name" style="width: 260px;">
+        <button onclick="searchPart()">Search</button>
+        <div id="result"></div>
+    </div>
+
+    <div class="dropdown-section">
+        <h2>Find by Car &gt; Model &gt; Detail</h2>
+        <div>
+            <select id="car" onchange="loadModels()"></select>
+            <select id="model" onchange="loadDetails()"></select>
+            <select id="detail"></select>
+            <button onclick="searchByDetail()">Find</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
