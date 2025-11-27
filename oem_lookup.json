@@ -1,0 +1,65 @@
+{
+  "BMW": {
+    "F30": {
+      "Turbo": ["11657649288", "11657595351"],
+      "Injector": ["13537585261"],
+      "Oil Filter Housing": ["11428576524", "11428506797"],
+      "Cooling Fan": ["17427640501", "17427640502"]
+    },
+    "F10": {
+      "Turbo": ["11657649288"],
+      "Injector": ["13537585261"],
+      "Oil Filter Housing": ["11428576524", "11428506797"],
+      "Control Arm": ["31126771893", "31126769715"]
+    },
+    "X5 E70": {
+      "Air Spring": ["37126790078", "37126790079"],
+      "Shock Absorber": ["33526796317", "31316796314"],
+      "Radiator": ["17117573781"]
+    }
+  },
+  "Audi": {
+    "A4 B8": {
+      "Turbo": ["06H145702S", "06H145702L"],
+      "Control Arm": ["8K0407151B"],
+      "Injector": ["06H906036G"],
+      "Radiator": ["8K0121251L"]
+    },
+    "A6 C7": {
+      "Turbo": ["03L198716"],
+      "Control Arm": ["4F0407509E"],
+      "Brake Disc": ["8K0615301T"],
+      "Brake Pad": ["8K0698151E"]
+    },
+    "Q7": {
+      "Air Spring": ["4L0616001T", "4L0616002T"],
+      "Shock Absorber": ["7L8616039D", "7L8616040D"],
+      "Intercooler": ["7L6125603"]
+    }
+  },
+  "Volvo": {
+    "XC60": {
+      "Turbo": ["36002657"],
+      "Fan": ["31429982"],
+      "Control Arm": ["31304045"]
+    },
+    "XC90": {
+      "Cooling Fan": ["36002657"],
+      "Oil Filter Housing": ["31304212"],
+      "Injector": ["36002638"]
+    }
+  },
+  "Peugeot": {
+    "308": {
+      "Turbo": ["0375J6", "0375J7"],
+      "Injector": ["1980L0", "1980L1"],
+      "Oil Filter Housing": ["1103.TQ"],
+      "Water Pump": ["1201E1"]
+    },
+    "3008": {
+      "Turbo": ["0375J7"],
+      "Control Arm": ["3520L5"],
+      "Radiator": ["1330Z3"]
+    }
+  }
+}
