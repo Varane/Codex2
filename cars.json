@@ -2,17 +2,66 @@
   "BMW": {
     "3 Series F30": {
       "Engine": ["Oil Filter Housing", "Turbo", "Injector"],
-      "Cooling": ["Radiator", "Fan", "Expansion Tank"]
+      "Cooling": ["Radiator", "Fan", "Expansion Tank"],
+      "Suspension": ["Control Arm", "Shock Absorber"]
     },
     "5 Series F10": {
-      "Engine": ["Oil Filter Housing", "Turbo"],
-      "Suspension": ["Control Arm", "Air Spring"]
+      "Engine": ["Oil Filter Housing", "Turbo", "Injector"],
+      "Suspension": ["Control Arm", "Air Spring", "Stabilizer Link"],
+      "Cooling": ["Radiator", "Water Pump"]
+    },
+    "X5 F15": {
+      "Engine": ["Turbo", "Oil Filter Housing", "Injector"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"],
+      "Cooling": ["Expansion Tank", "Radiator"]
     }
   },
   "Audi": {
     "A4 B8": {
-      "Engine": ["Turbo", "Injector"],
+      "Engine": ["Turbo", "Injector", "Valve Cover"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Cooling": ["Radiator", "Water Pump"]
+    },
+    "A6 C7": {
+      "Engine": ["Turbo", "Injector", "PCV Valve"],
+      "Suspension": ["Control Arm", "Air Spring"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    }
+  },
+  "Mercedes": {
+    "C-Class W205": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Cooling": ["Radiator", "Fan", "Expansion Tank"]
+    },
+    "E-Class W213": {
+      "Engine": ["Turbo", "Injector", "Oil Cooler"],
+      "Suspension": ["Air Spring", "Control Arm"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    }
+  },
+  "Volkswagen": {
+    "Golf VII": {
+      "Engine": ["Turbo", "Injector", "PCV Valve"],
+      "Cooling": ["Radiator", "Water Pump", "Thermostat"],
       "Suspension": ["Control Arm", "Shock Absorber"]
+    },
+    "Passat B8": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Expansion Tank", "Radiator"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    }
+  },
+  "Toyota": {
+    "Camry XV70": {
+      "Engine": ["Oil Filter Housing", "Injector", "Spark Plug"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Suspension": ["Control Arm", "Shock Absorber"]
+    },
+    "RAV4 XA50": {
+      "Engine": ["Oil Filter Housing", "Injector", "PCV Valve"],
+      "Cooling": ["Radiator", "Fan", "Thermostat"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
     }
   }
 }
