@@ -4,6 +4,7 @@ This project provides a FastAPI backend and a simple frontend to search automoti
 
 ## Features
 - Scrapes listings from rrr.lt and eBay.de for a given OEM number or part description.
+- OEM intelligence layer resolves likely part numbers from natural-language queries, vehicle context, lookup tables, and heuristic scraping.
 - Applies a 1.35 multiplier to the average price across sources to present a final offer.
 - Fallback search on rrr.lt for OEM inputs that return no results (prepends "BMW" to the query).
 - Logs every request to `data/part_logs.csv` with summary statistics.
@@ -16,7 +17,7 @@ This project provides a FastAPI backend and a simple frontend to search automoti
 - `templates/index.html` — Minimal UI with search input and dropdown selectors.
 - `static/script.js` — Frontend logic for fetching results and handling dropdowns.
 - `data/part_logs.csv` — CSV log file automatically appended per request.
-- `requirements.txt` — Python dependencies (FastAPI stack plus Jinja2 for templating).
+- `requirements.txt` — Python dependencies (FastAPI stack, scraping utilities, Jinja2 for templating, RapidFuzz for fuzzy matches).
 
 ## Getting Started
 1. Install dependencies:
