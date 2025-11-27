@@ -1,0 +1,18 @@
+{
+  "BMW": {
+    "3 Series F30": {
+      "Engine": ["Oil Filter Housing", "Turbo", "Injector"],
+      "Cooling": ["Radiator", "Fan", "Expansion Tank"]
+    },
+    "5 Series F10": {
+      "Engine": ["Oil Filter Housing", "Turbo"],
+      "Suspension": ["Control Arm", "Air Spring"]
+    }
+  },
+  "Audi": {
+    "A4 B8": {
+      "Engine": ["Turbo", "Injector"],
+      "Suspension": ["Control Arm", "Shock Absorber"]
+    }
+  }
+}
