@@ -144,7 +144,7 @@ async def get_part(q: str = Query(..., min_length=1)):
     prices = [item["price"] for item in combined_results if isinstance(item.get("price"), (int, float))]
 
     if not prices:
-        return JSONResponse({"error": "No offers found"}, status_code=404)
+        return JSONResponse({"error": "No offers found"})
 
     avg_price = sum(prices) / len(prices)
     final_price = round(avg_price * 1.35, 2)

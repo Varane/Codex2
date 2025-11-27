@@ -7,7 +7,8 @@ This project provides a FastAPI backend and a simple frontend to search automoti
 - Applies a 1.35 multiplier to the average price across sources to present a final offer.
 - Fallback search on rrr.lt for OEM inputs that return no results (prepends "BMW" to the query).
 - Logs every request to `data/part_logs.csv` with summary statistics.
-- Clean, dependency-free frontend with manual car/model/detail selection that generates search queries.
+- Clean, dependency-free frontend with manual car/model/detail selection that generates search queries using an expanded dataset.
+- Car dataset spans multiple makes (BMW, Audi, Mercedes, Volkswagen, Toyota, Ford, Honda, Nissan, Volvo, Peugeot) with several models and system categories for broader dropdown coverage.
 
 ## Project Structure
 - `main.py` — FastAPI app, scrapers, and logging.
@@ -15,7 +16,7 @@ This project provides a FastAPI backend and a simple frontend to search automoti
 - `templates/index.html` — Minimal UI with search input and dropdown selectors.
 - `static/script.js` — Frontend logic for fetching results and handling dropdowns.
 - `data/part_logs.csv` — CSV log file automatically appended per request.
-- `requirements.txt` — Python dependencies.
+- `requirements.txt` — Python dependencies (FastAPI stack plus Jinja2 for templating).
 
 ## Getting Started
 1. Install dependencies:
