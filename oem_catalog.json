@@ -1,0 +1,99 @@
+{
+  "BMW": {
+    "F30": {
+      "Oil Filter Housing": ["11428576524", "11428506797"],
+      "Turbo": ["11657649288", "11657595351"],
+      "Water Pump": ["11517546994"],
+      "Radiator": ["17117573781"],
+      "Fan": ["17427640501"],
+      "Injector": ["13537585261"],
+      "Intercooler": ["17517600533"]
+    },
+    "F10": {
+      "Oil Filter Housing": ["11427525335"],
+      "Turbo": ["11657563683"],
+      "Injector": ["13537565138"],
+      "Water Pump": ["11517546988"],
+      "Control Arm": ["31126769715"],
+      "Shock Absorber": ["33526796317"]
+    }
+  },
+  "Audi": {
+    "A4 B8": {
+      "Turbo": ["06H145702S", "06H145702L"],
+      "Injector": ["06H906036G"],
+      "Control Arm": ["8K0407151B"],
+      "Water Pump": ["06H121011"],
+      "Oil Filter Housing": ["06J115403Q"],
+      "Radiator": ["8K0121251L"],
+      "Fan": ["8K0959455T"]
+    },
+    "A6 C7": {
+      "Turbo": ["059145722T"],
+      "Injector": ["057130277AR"],
+      "Radiator": ["4G0121251R"],
+      "Water Pump": ["059121004D"],
+      "Intercooler": ["4G0145805P"],
+      "Control Arm": ["4G0407509K"]
+    }
+  },
+  "Volkswagen": {
+    "Golf 7": {
+      "Turbo": ["04E145721Q", "04L253010N"],
+      "Injector": ["04E906036Q"],
+      "Oil Filter Housing": ["04E115397R"],
+      "Water Pump": ["04L121011N"],
+      "Radiator": ["5Q0121251ET"],
+      "Fan": ["5Q0959455H"]
+    },
+    "Passat B8": {
+      "Turbo": ["03L253016SV"],
+      "Injector": ["03L130277B"],
+      "Radiator": ["3G0121251A"],
+      "Water Pump": ["03L121011A"],
+      "Control Arm": ["3C0407151T"],
+      "Fan": ["3Q0959455AD"]
+    }
+  },
+  "Peugeot": {
+    "308 T9": {
+      "Turbo": ["0375J6", "0375J7"],
+      "Injector": ["1980L0"],
+      "Oil Filter Housing": ["1103.TQ"],
+      "Radiator": ["1330.Y7"],
+      "Water Pump": ["16100-39436"]
+    },
+    "3008": {
+      "Turbo": ["9802315680"],
+      "Injector": ["1980L1"],
+      "Fan": ["1253R8"],
+      "Intercooler": ["0384.J8"]
+    }
+  },
+  "Citroën": {
+    "C5 X7": {
+      "Turbo": ["0375J6"],
+      "Injector": ["1980G0"],
+      "Water Pump": ["1201E7"],
+      "Radiator": ["1330.Q0"],
+      "Oil Filter Housing": ["1103.TQ"]
+    }
+  },
+  "Volvo": {
+    "V60": {
+      "Turbo": ["36002657"],
+      "Injector": ["36002691"],
+      "Fan": ["31429982"],
+      "Water Pump": ["31319642"],
+      "Radiator": ["31319076"],
+      "Oil Cooler": ["31293695"],
+      "Oil Filter Housing": ["31319824"]
+    },
+    "S60": {
+      "Turbo": ["31219709"],
+      "Injector": ["30777394"],
+      "Control Arm": ["31212740"],
+      "Shock Absorber": ["31277540"]
+    }
+  }
+}

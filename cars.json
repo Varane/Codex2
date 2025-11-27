@@ -1,0 +1,177 @@
+{
+  "BMW": {
+    "3 Series F30": {
+      "Engine": ["Oil Filter Housing", "Turbo", "Injector", "Spark Plug"],
+      "Cooling": ["Radiator", "Fan", "Expansion Tank", "Water Pump"],
+      "Suspension": ["Control Arm", "Shock Absorber", "Stabilizer Link"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    },
+    "5 Series F10": {
+      "Engine": ["Oil Filter Housing", "Turbo", "Injector", "PCV Valve"],
+      "Suspension": ["Control Arm", "Air Spring", "Stabilizer Link"],
+      "Cooling": ["Radiator", "Water Pump", "Thermostat"]
+    },
+    "X5 F15": {
+      "Engine": ["Turbo", "Oil Filter Housing", "Injector"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"],
+      "Cooling": ["Expansion Tank", "Radiator", "Thermostat"],
+      "Suspension": ["Control Arm", "Shock Absorber"]
+    },
+    "1 Series F20": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Brakes": ["Front Pads", "Rear Pads"],
+      "Suspension": ["Control Arm", "Ball Joint"]
+    }
+  },
+  "Audi": {
+    "A4 B8": {
+      "Engine": ["Turbo", "Injector", "Valve Cover"],
+      "Suspension": ["Control Arm", "Shock Absorber", "Stabilizer Link"],
+      "Cooling": ["Radiator", "Water Pump", "Thermostat"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "A6 C7": {
+      "Engine": ["Turbo", "Injector", "PCV Valve", "Oil Separator"],
+      "Suspension": ["Control Arm", "Air Spring", "Tie Rod"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"],
+      "Cooling": ["Radiator", "Water Pump"]
+    },
+    "Q5 8R": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads"],
+      "Cooling": ["Radiator", "Thermostat"]
+    }
+  },
+  "Mercedes": {
+    "C-Class W205": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Suspension": ["Control Arm", "Ball Joint", "Air Spring"],
+      "Cooling": ["Radiator", "Fan", "Expansion Tank"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    },
+    "E-Class W213": {
+      "Engine": ["Turbo", "Injector", "Oil Cooler"],
+      "Suspension": ["Air Spring", "Control Arm", "Stabilizer Link"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"],
+      "Cooling": ["Radiator", "Water Pump"]
+    },
+    "GLC X253": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Cooling": ["Radiator", "Expansion Tank"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    }
+  },
+  "Volkswagen": {
+    "Golf VII": {
+      "Engine": ["Turbo", "Injector", "PCV Valve", "Spark Plug"],
+      "Cooling": ["Radiator", "Water Pump", "Thermostat"],
+      "Suspension": ["Control Arm", "Shock Absorber", "Stabilizer Link"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "Passat B8": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Expansion Tank", "Radiator", "Water Pump"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"],
+      "Suspension": ["Control Arm", "Ball Joint"]
+    },
+    "Tiguan AD1": {
+      "Engine": ["Turbo", "Injector", "PCV Valve"],
+      "Cooling": ["Radiator", "Thermostat", "Fan"],
+      "Brakes": ["Front Pads", "Rear Pads"],
+      "Suspension": ["Control Arm", "Shock Absorber"]
+    }
+  },
+  "Toyota": {
+    "Camry XV70": {
+      "Engine": ["Oil Filter Housing", "Injector", "Spark Plug"],
+      "Cooling": ["Radiator", "Water Pump", "Thermostat"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "RAV4 XA50": {
+      "Engine": ["Oil Filter Housing", "Injector", "PCV Valve"],
+      "Cooling": ["Radiator", "Fan", "Thermostat"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"],
+      "Suspension": ["Control Arm", "Shock Absorber"]
+    },
+    "Corolla E210": {
+      "Engine": ["Oil Filter Housing", "Spark Plug", "Injector"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    }
+  },
+  "Ford": {
+    "Focus MK4": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    },
+    "Mondeo MK5": {
+      "Engine": ["Turbo", "Injector", "PCV Valve"],
+      "Cooling": ["Radiator", "Thermostat"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    }
+  },
+  "Honda": {
+    "Civic FK7": {
+      "Engine": ["Turbo", "Injector", "Spark Plug"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "CR-V RW": {
+      "Engine": ["Turbo", "Oil Filter Housing", "Injector"],
+      "Cooling": ["Radiator", "Fan", "Thermostat"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    }
+  },
+  "Nissan": {
+    "Qashqai J11": {
+      "Engine": ["Turbo", "Injector", "Spark Plug"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "X-Trail T32": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Radiator", "Thermostat"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    }
+  },
+  "Volvo": {
+    "XC60 UZ": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Radiator", "Water Pump", "Thermostat"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "V60 II": {
+      "Engine": ["Turbo", "Injector", "PCV Valve"],
+      "Cooling": ["Radiator", "Fan", "Thermostat"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    }
+  },
+  "Peugeot": {
+    "308 T9": {
+      "Engine": ["Turbo", "Injector", "Oil Filter Housing"],
+      "Cooling": ["Radiator", "Water Pump"],
+      "Suspension": ["Control Arm", "Shock Absorber"],
+      "Brakes": ["Front Pads", "Rear Pads"]
+    },
+    "3008 II": {
+      "Engine": ["Turbo", "Injector", "Spark Plug"],
+      "Cooling": ["Radiator", "Thermostat"],
+      "Suspension": ["Control Arm", "Ball Joint"],
+      "Brakes": ["Front Pads", "Rear Pads", "Rotor"]
+    }
+  }
+}
