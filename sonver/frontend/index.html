@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonver Part Request</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Solicitar Repuesto</h1>
+    <form id="partForm">
+      <div class="grid">
+        <label>Marca
+          <select id="make" name="make_id" required>
+            <option value="">Selecciona marca</option>
+          </select>
+        </label>
+        <label>Modelo
+          <select id="model" name="model_id" required disabled>
+            <option value="">Selecciona modelo</option>
+          </select>
+        </label>
+        <label>Submodelo
+          <select id="submodel" name="submodel_id" required disabled>
+            <option value="">Selecciona submodelo</option>
+          </select>
+        </label>
+        <label>Motor
+          <select id="engine" name="engine_id" required disabled>
+            <option value="">Selecciona motor</option>
+          </select>
+        </label>
+        <label>Año
+          <select id="year" name="year" required disabled>
+            <option value="">Selecciona año</option>
+          </select>
+        </label>
+        <label>OEM
+          <input type="text" id="oem" name="oem" placeholder="Código OEM" />
+        </label>
+        <label>VIN
+          <input type="text" id="vin" name="vin" placeholder="VIN (opcional)" />
+          <small>Para asegurar compatibilidad exacta recomendamos enviar el VIN.</small>
+        </label>
+        <label>Teléfono
+          <input type="text" id="phone" name="phone" placeholder="Tu teléfono" required />
+        </label>
+      </div>
+      <label>Notas
+        <textarea id="notes" name="notes" rows="4" placeholder="Describe el repuesto"></textarea>
+      </label>
+      <button type="submit">Enviar solicitud</button>
+      <p id="status" class="status"></p>
+    </form>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
